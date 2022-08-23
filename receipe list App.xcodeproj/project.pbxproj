@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323998B728B499DB000E7A08 /* ReceipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323998B628B499DB000E7A08 /* ReceipeTabView.swift */; };
 		32D7337528AA051D00B6EE99 /* receipe_list_AppModifiel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7337428AA051D00B6EE99 /* receipe_list_AppModifiel.swift */; };
 		32D7337728AA051D00B6EE99 /* ReceipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7337628AA051D00B6EE99 /* ReceipeListView.swift */; };
 		32D7337928AA051E00B6EE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D7337828AA051E00B6EE99 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323998B628B499DB000E7A08 /* ReceipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeTabView.swift; sourceTree = "<group>"; };
 		32D7337128AA051D00B6EE99 /* receipe list App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "receipe list App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D7337428AA051D00B6EE99 /* receipe_list_AppModifiel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receipe_list_AppModifiel.swift; sourceTree = "<group>"; };
 		32D7337628AA051D00B6EE99 /* ReceipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeListView.swift; sourceTree = "<group>"; };
@@ -161,9 +163,10 @@
 		32D7339F28AA054300B6EE99 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				323998B628B499DB000E7A08 /* ReceipeTabView.swift */,
 				32D7337628AA051D00B6EE99 /* ReceipeListView.swift */,
-				32D733A028AA054900B6EE99 /* viewModel */,
 				32D733B528ADF71400B6EE99 /* Receipe detailView.swift */,
+				32D733A028AA054900B6EE99 /* viewModel */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			files = (
 				32D733B628ADF71400B6EE99 /* Receipe detailView.swift in Sources */,
 				32D733AA28AA108A00B6EE99 /* Receipe.swift in Sources */,
+				323998B728B499DB000E7A08 /* ReceipeTabView.swift in Sources */,
 				32D7337728AA051D00B6EE99 /* ReceipeListView.swift in Sources */,
 				32D7337528AA051D00B6EE99 /* receipe_list_AppModifiel.swift in Sources */,
 				32D733AE28AA125900B6EE99 /* receipeModel.swift in Sources */,

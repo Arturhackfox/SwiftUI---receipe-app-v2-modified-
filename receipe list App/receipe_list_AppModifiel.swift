@@ -11,7 +11,7 @@ import SwiftUI
 struct receipe_list_AppModifiel: App {
     var body: some Scene {
         WindowGroup {
-            ReceipeListView()
+            ReceipeTabview()
         }
     }
 }
