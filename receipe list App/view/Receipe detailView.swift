@@ -27,8 +27,8 @@ struct Receipe_detailView: View {
                         .font(.headline)
                         .padding([.top, .bottom], 5)
                     
-                    ForEach(receipe.ingredients, id: \.self) { i in
-                        Text("•" + i)
+                    ForEach(receipe.ingredients) { i in
+                        Text("•" + i.name)
                         
                     }
                 }

@@ -28,6 +28,10 @@ class DataService {
                 
                 for r in receipeData{
                     r.id = UUID()
+                    
+                    for i in r.ingredients {
+                        i.id = UUID()
+                    }
                 }
                 
                 return receipeData

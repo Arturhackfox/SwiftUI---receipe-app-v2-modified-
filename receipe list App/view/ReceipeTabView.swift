@@ -18,6 +18,7 @@ struct ReceipeTabview: View {
                     }
                 }
             
+            
             ReceipeListView()
                 .tabItem {
                     VStack{
