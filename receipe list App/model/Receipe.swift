@@ -23,9 +23,7 @@ class Receipe: Identifiable, Decodable {
     var ingredients:[Ingredient]
     var directions:[String]
     
-    
 }
-
 
 class Ingredient: Identifiable, Decodable {
     
@@ -34,5 +32,4 @@ class Ingredient: Identifiable, Decodable {
     var num:Int?
     var denom:Int?
     var unit:String?
-    
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Receipe_detailView: View {
+struct RecipeDetailView: View {
     
     var receipe:Receipe
     
@@ -58,9 +58,9 @@ struct Receipe_detailView: View {
 struct Receipe_detailView_Previews: PreviewProvider {
     static var previews: some View {
         
-        let model = receipModel() // Dummy data
+        let model = RecipeModel() // Dummy data
         
-        Receipe_detailView(receipe: model.recipes[0])
+        RecipeDetailView(receipe: model.recipes[0])
             .preferredColorScheme(.dark)
     }
 }

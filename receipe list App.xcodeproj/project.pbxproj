@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		323998B728B499DB000E7A08 /* ReceipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323998B628B499DB000E7A08 /* ReceipeTabView.swift */; };
+		32BB1B7E28BA49CC00C75254 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB1B7D28BA49CC00C75254 /* RecipeFeaturedView.swift */; };
 		32D7337528AA051D00B6EE99 /* receipe_list_AppModifiel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7337428AA051D00B6EE99 /* receipe_list_AppModifiel.swift */; };
-		32D7337728AA051D00B6EE99 /* ReceipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7337628AA051D00B6EE99 /* ReceipeListView.swift */; };
+		32D7337728AA051D00B6EE99 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7337628AA051D00B6EE99 /* RecipeListView.swift */; };
 		32D7337928AA051E00B6EE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D7337828AA051E00B6EE99 /* Assets.xcassets */; };
 		32D7337C28AA051E00B6EE99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D7337B28AA051E00B6EE99 /* Preview Assets.xcassets */; };
 		32D7338628AA051E00B6EE99 /* receipe_list_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7338528AA051E00B6EE99 /* receipe_list_AppTests.swift */; };
@@ -21,9 +22,9 @@
 		32D733AA28AA108A00B6EE99 /* Receipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733A928AA108A00B6EE99 /* Receipe.swift */; };
 		32D733AB28AA108A00B6EE99 /* Receipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733A928AA108A00B6EE99 /* Receipe.swift */; };
 		32D733AC28AA108A00B6EE99 /* Receipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733A928AA108A00B6EE99 /* Receipe.swift */; };
-		32D733AE28AA125900B6EE99 /* receipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733AD28AA125900B6EE99 /* receipeModel.swift */; };
-		32D733AF28AA125900B6EE99 /* receipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733AD28AA125900B6EE99 /* receipeModel.swift */; };
-		32D733B028AA125900B6EE99 /* receipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733AD28AA125900B6EE99 /* receipeModel.swift */; };
+		32D733AE28AA125900B6EE99 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733AD28AA125900B6EE99 /* RecipeModel.swift */; };
+		32D733AF28AA125900B6EE99 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733AD28AA125900B6EE99 /* RecipeModel.swift */; };
+		32D733B028AA125900B6EE99 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733AD28AA125900B6EE99 /* RecipeModel.swift */; };
 		32D733B228AB599300B6EE99 /* dataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733B128AB599300B6EE99 /* dataService.swift */; };
 		32D733B328AB599300B6EE99 /* dataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733B128AB599300B6EE99 /* dataService.swift */; };
 		32D733B428AB599300B6EE99 /* dataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D733B128AB599300B6EE99 /* dataService.swift */; };
@@ -51,9 +52,10 @@
 
 /* Begin PBXFileReference section */
 		323998B628B499DB000E7A08 /* ReceipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeTabView.swift; sourceTree = "<group>"; };
+		32BB1B7D28BA49CC00C75254 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		32D7337128AA051D00B6EE99 /* receipe list App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "receipe list App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D7337428AA051D00B6EE99 /* receipe_list_AppModifiel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receipe_list_AppModifiel.swift; sourceTree = "<group>"; };
-		32D7337628AA051D00B6EE99 /* ReceipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeListView.swift; sourceTree = "<group>"; };
+		32D7337628AA051D00B6EE99 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		32D7337828AA051E00B6EE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D7337B28AA051E00B6EE99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32D7338128AA051E00B6EE99 /* receipe list AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "receipe list AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +65,7 @@
 		32D7339128AA051E00B6EE99 /* receipe_list_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receipe_list_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		32D733A528AA103400B6EE99 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../RecipeListApp Resources/recipes.json"; sourceTree = "<group>"; };
 		32D733A928AA108A00B6EE99 /* Receipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipe.swift; sourceTree = "<group>"; };
-		32D733AD28AA125900B6EE99 /* receipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receipeModel.swift; sourceTree = "<group>"; };
+		32D733AD28AA125900B6EE99 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		32D733B128AB599300B6EE99 /* dataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataService.swift; sourceTree = "<group>"; };
 		32D733B528ADF71400B6EE99 /* Receipe detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipe detailView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,7 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				323998B628B499DB000E7A08 /* ReceipeTabView.swift */,
-				32D7337628AA051D00B6EE99 /* ReceipeListView.swift */,
+				32BB1B7D28BA49CC00C75254 /* RecipeFeaturedView.swift */,
+				32D7337628AA051D00B6EE99 /* RecipeListView.swift */,
 				32D733B528ADF71400B6EE99 /* Receipe detailView.swift */,
 				32D733A028AA054900B6EE99 /* viewModel */,
 			);
@@ -174,7 +177,7 @@
 		32D733A028AA054900B6EE99 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
-				32D733AD28AA125900B6EE99 /* receipeModel.swift */,
+				32D733AD28AA125900B6EE99 /* RecipeModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -331,9 +334,10 @@
 				32D733B628ADF71400B6EE99 /* Receipe detailView.swift in Sources */,
 				32D733AA28AA108A00B6EE99 /* Receipe.swift in Sources */,
 				323998B728B499DB000E7A08 /* ReceipeTabView.swift in Sources */,
-				32D7337728AA051D00B6EE99 /* ReceipeListView.swift in Sources */,
+				32D7337728AA051D00B6EE99 /* RecipeListView.swift in Sources */,
 				32D7337528AA051D00B6EE99 /* receipe_list_AppModifiel.swift in Sources */,
-				32D733AE28AA125900B6EE99 /* receipeModel.swift in Sources */,
+				32D733AE28AA125900B6EE99 /* RecipeModel.swift in Sources */,
+				32BB1B7E28BA49CC00C75254 /* RecipeFeaturedView.swift in Sources */,
 				32D733B228AB599300B6EE99 /* dataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D733AF28AA125900B6EE99 /* receipeModel.swift in Sources */,
+				32D733AF28AA125900B6EE99 /* RecipeModel.swift in Sources */,
 				32D7338628AA051E00B6EE99 /* receipe_list_AppTests.swift in Sources */,
 				32D733AB28AA108A00B6EE99 /* Receipe.swift in Sources */,
 				32D733B328AB599300B6EE99 /* dataService.swift in Sources */,
@@ -358,7 +362,7 @@
 				32D733AC28AA108A00B6EE99 /* Receipe.swift in Sources */,
 				32D7339228AA051E00B6EE99 /* receipe_list_AppUITestsLaunchTests.swift in Sources */,
 				32D7339028AA051E00B6EE99 /* receipe_list_AppUITests.swift in Sources */,
-				32D733B028AA125900B6EE99 /* receipeModel.swift in Sources */,
+				32D733B028AA125900B6EE99 /* RecipeModel.swift in Sources */,
 				32D733B428AB599300B6EE99 /* dataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

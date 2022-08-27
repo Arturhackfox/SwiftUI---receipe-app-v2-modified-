@@ -9,7 +9,7 @@ import Foundation
 
 
 
-class receipModel: ObservableObject {
+class RecipeModel: ObservableObject {
     
     @Published var recipes = [Receipe]()
     

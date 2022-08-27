@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct ReceipeTabview: View {
+struct RecipeTabView: View {
     var body: some View {
         TabView{
-            Text("Featured View")
+            
+            
+            RecipeFeaturedView()
                 .tabItem {
                     VStack{
                         Image(systemName: "star.fill")
@@ -19,7 +21,7 @@ struct ReceipeTabview: View {
                 }
             
             
-            ReceipeListView()
+            RecipeListView()
                 .tabItem {
                     VStack{
                         Image(systemName: "list.bullet")
@@ -27,11 +29,13 @@ struct ReceipeTabview: View {
                     }
                 }
         }
+        .environmentObject(RecipeModel())
+
     }
 }
 
 struct mainView_Previews: PreviewProvider {
     static var previews: some View {
-        ReceipeTabview()
+        RecipeTabView()
     }
 }
