@@ -43,6 +43,7 @@ struct RecipeListView: View {
 struct ReceipeListView_Previews: PreviewProvider {
     static var previews: some View {
         RecipeListView()
+            .environmentObject(RecipeModel())
             .preferredColorScheme(.dark)
     }
 }
