@@ -11,6 +11,8 @@ struct RecipeDetailView: View {
     
     var receipe:Receipe
     
+    @State var selectedServingSize = 2
+    
     var body: some View {
         ScrollView{
             
@@ -21,6 +23,29 @@ struct RecipeDetailView: View {
                     .scaledToFill()
                 
                 
+                // MARK: Recipe title
+                Text(receipe.name)
+                    .bold()
+                    .padding(.top, 20)
+                    .padding(.leading, 20)
+                    .font(.largeTitle)
+                
+                
+                // MARK: Picker
+                VStack(alignment: .leading){
+                    Text("Select your serving size:")
+                    
+                    Picker("", selection: $selectedServingSize) {
+                        Text("2").tag(2)
+                        Text("4").tag(4)
+                        Text("6").tag(6)
+                        Text("8").tag(8)
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+                    .frame(width: 160)
+                    
+                }.padding()
+                
                 // MARK: ingridients
                 VStack(alignment: .leading) {
                     Text("These are the ingredients")
@@ -28,7 +53,7 @@ struct RecipeDetailView: View {
                         .padding([.top, .bottom], 5)
                     
                     ForEach(receipe.ingredients) { i in
-                        Text("•" + i.name)
+                        Text("• " + RecipeModel.GetPortion(Ingredient: i, RecipeServings: receipe.servings, TargetServings: selectedServingSize) + " " + i.name.lowercased())
                         
                     }
                 }
@@ -49,8 +74,7 @@ struct RecipeDetailView: View {
                 .padding(.horizontal)
                 
             }
-        } .navigationTitle(receipe.name)
-        
+        }
         
     }
 }
@@ -61,6 +85,6 @@ struct Receipe_detailView_Previews: PreviewProvider {
         let model = RecipeModel() // Dummy data
         
         RecipeDetailView(receipe: model.recipes[0])
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
     }
 }
