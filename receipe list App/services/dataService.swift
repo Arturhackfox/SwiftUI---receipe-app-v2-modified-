@@ -19,12 +19,12 @@ class DataService {
         let url = URL(fileURLWithPath: pathString!)
         
         do{
-        let data = try Data(contentsOf: url)
+            let data = try Data(contentsOf: url)
             
             let decoder = JSONDecoder()
             
             do{
-               let receipeData = try decoder.decode([Receipe].self, from: data)
+                let receipeData = try decoder.decode([Receipe].self, from: data)
                 
                 for r in receipeData{
                     r.id = UUID()
@@ -40,7 +40,7 @@ class DataService {
             catch{
                 print(error)
             }
- 
+            
         }
         catch{
             print(error)

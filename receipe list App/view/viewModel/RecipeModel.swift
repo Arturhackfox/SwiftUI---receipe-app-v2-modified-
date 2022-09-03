@@ -72,21 +72,21 @@ class RecipeModel: ObservableObject {
                     unit += "es"
                 }
                 else if unit.suffix(1) == "f" {
-                        unit = String(unit.dropLast())
-                        unit += "ves"
-                    } else {
-                        unit += "s"
-                    }
+                    unit = String(unit.dropLast())
+                    unit += "ves"
+                } else {
+                    unit += "s"
                 }
+            }
             portion += Ingredient.num == nil && Ingredient.denom == nil ? "" : " "
-
+            
             
             return portion + unit
-            }
-            
-            
-            
-            return portion
         }
+        
+        
+        
+        return portion
+    }
 }
-    
+
